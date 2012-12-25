@@ -1333,11 +1333,11 @@ plot """
         table { background-color: #fafafa; }
         table.table th { background-color: #ddf !important; }
         table.table { font-size: 13px; }
-        .vtable table.table { float: right; width: auto; }
+        .vtable { float: right; width: auto; clear: both; }
         .container { width: auto; margin: 0 20px; max-width: 1400px; }
         img { background-color: #fafafa; padding: 8px; border: 1px solid #999; }
         table.table img { background: none; padding: 0; border: none; }
-        h2 { font-size: 22px; background-color: #564; padding: 0 8px; border: 1px solid #999; color: #fafafa; margin-top: 30px; }
+        h2 { font-size: 22px; background-color: #564; padding: 0 8px; border: 1px solid #999; color: #fafafa; margin-top: 30px; clear: both; }
     </style>
     <script type="text/javascript" src="sortable.js"></script>
   </head>
